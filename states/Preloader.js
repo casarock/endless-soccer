@@ -6,6 +6,7 @@ Soccer.Preloader.prototype = {
 
     preload: function() {
         this.load.image('pitch', 'images/football-pitch.png');
+        this.load.spritesheet('player', 'images/player_transparent.png', 16, 16);
     },
 
     create: function() {
